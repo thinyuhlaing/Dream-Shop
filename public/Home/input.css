@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* npx tailwindcss -i input.css -o output.css --watch */
+body {
+  @apply bg-slate-800;
+}
+
+.main {
+  @apply w-full h-full;
+}
+
+.bar {
+  @apply bg-orange  w-full h-16  overflow-hidden sticky top-0 z-10;
+  @apply flex items-center justify-around;
+}
+.imglogo {
+  @apply w-28 h-24 -m-5;
+}
+.search {
+  @apply bg-white pr-2 rounded-lg;
+}
+
+.inputbox {
+  @apply rounded-lg px-3 py-1 w-32 lg:w-56;
+}
+
+.show {
+  @apply cursor-pointer hidden lg:inline-block font-medium text-lg;
+}
+
+.signup {
+  @apply text-yellow-500 hidden lg:flex text-xl bg-black h-10 w-28  rounded-lg text-center  justify-evenly items-center;
+}
+.icons {
+  @apply cursor-pointer text-xl;
+}
+.menu {
+  @apply lg:hidden;
+}
+
+.middle {
+  @apply flex justify-evenly flex-wrap;
+  @apply dark:whitespace-normal;
+}
+
+.box {
+  @apply bg-white w-48  my-3 min-h-80 rounded-2xl overflow-hidden;
+  @apply transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-300;
+  @apply md:w-[15rem] md:my-4 md:min-h-[24rem];
+}
+
+.img {
+  @apply w-full h-52 mb-3;
+}
+.detail {
+  @apply ml-2 mb-3;
+}
+.title {
+  @apply font-semibold text-xl mb-1;
+}
+.descri {
+  @apply max-h-11 overflow-hidden;
+}
+.price {
+  @apply mt-2 font-semibold text-lg;
+}
+
+.disco {
+  @apply text-green-600 mr-3 inline-block  lg:mr-16;
+}
+.button {
+  @apply bg-green-400 w-[106px]   h-10 lg:w-28  rounded-lg text-sm font-medium;
+}
+
+.hehe {
+  @apply snap-x;
+}
+
+.haha {
+  @apply snap-center;
+}

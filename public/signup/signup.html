@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup / Login</title>
+    <link rel="stylesheet" href="outsignup.css" />
+    <script
+      src="https://kit.fontawesome.com/e962b45539.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="main">
+  <div class="bg">
+    <a href="../../Home/index.html"> <i  class="fa-solid fa-arrow-left"></i> </a>
+  
+    <div class=" container">
+      <div class="signup">Sign Up</div>
+      <form class="form" action="/signup" method="POST">
+        <div class="info"> 
+          <label  class="text">Username</label>
+          <input  name="username" class="box" type="text" required />
+        </div>
+        <div class="info"> 
+          <label  class="text">Email</label>
+          <input  name="email" class="box" type="email" required/>
+        </div>
+        <div class="info"> 
+          <label  class="text">Password</label>
+          <input id="password" name="password" class="box" type="password" required/>
+        </div>
+        
+        <button type="submit" class="box button">Sign Up</button>
+      </form>
+      
+        
+        <div class="links">
+           <img class="sign" src="../../img/facebook.png">
+          <img class="sign" src="../../img/twitter.png">
+          <img class="sign" src="../../img/telegram.png">
+        </div>
+        <p class="p"> Already have an account <a  href="../signin/signin.html">Sign in </a> </p>
+      
+      
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+
+      
